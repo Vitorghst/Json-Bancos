@@ -42,9 +42,9 @@ listabancosord = bubbleSort(lista)
 for banco in listabancosord:
   print(banco)
 
-#with open('bancos.txt','w') as arquivo:
-  #for valor in listabancosord:
-    #arquivo.write(str(valor) + '\n')
+with open('bancos.txt','w') as arquivo:
+  for valor in listabancosord:
+    arquivo.write(str(valor) + '\n')
 
 
 
